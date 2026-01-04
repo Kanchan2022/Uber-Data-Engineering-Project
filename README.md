@@ -3,6 +3,8 @@
 
 This project is an end-to-end data engineering pipeline built to support analytics at scale. It uses publicly available NYC Taxi & Limousine Commission (TLC) trip data (Yellow-taxi Oct'2025) to ingest, transform, and model data for analytics.
 
+The pipeline is designed with modular components and analytics-optimized data models to support scalable querying and business intelligence use cases.
+
 Data source:
 https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 

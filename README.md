@@ -18,7 +18,6 @@ Star schema optimized for analytics:
 Fact table: trip-level metrics (fare, distance, taxes, totals)
 
 Dimensions: datetime, passenger count, trip distance, rate code, pickup & drop locations, payment type
-This project demonstrates an end-to-end data engineering pipeline using NYC TLC trip data. It covers data ingestion, transformation, star-schema modeling, orchestration with Mage, loading into Google BigQuery, and analytics via SQL and Looker as part of my transition into data engineering.
 
 ## Analytics Examples
 
@@ -35,4 +34,4 @@ This project demonstrates an end-to-end data engineering pipeline using NYC TLC 
 
 ## Motivation
 
-This project reflects my transition from analytics toward data engineering, focusing on scalable pipelines and cloud data platforms.
+This project reflects my upskilling towards data engineering, focusing on scalable pipelines and cloud data platforms.

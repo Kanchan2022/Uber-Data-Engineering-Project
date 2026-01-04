@@ -1,7 +1,7 @@
-# Uber-Data-Engineering-Project
+# End-to-End Analytics Platform Using NYC TLC Trip Data
 ## Overview
 
-This project is an end-to-end data engineering pipeline built as part of my upskilling into data engineering. It uses publicly available NYC Taxi & Limousine Commission (TLC) trip data (Yellow-taxi Oct'2025) to ingest, transform, and model data for analytics.
+This project is an end-to-end data engineering pipeline built to support analytics at scale. It uses publicly available NYC Taxi & Limousine Commission (TLC) trip data (Yellow-taxi Oct'2025) to ingest, transform, and model data for analytics.
 
 Data source:
 https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page

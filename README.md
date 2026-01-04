@@ -5,8 +5,11 @@ This project is an end-to-end data engineering pipeline built to support analyti
 
 The pipeline is designed with modular components and analytics-optimized data models to support scalable querying and business intelligence use cases.
 
-Data source: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-Data dictionary: https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+Data source: 
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+Data dictionary: 
+https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
 
 ## Architecture
 

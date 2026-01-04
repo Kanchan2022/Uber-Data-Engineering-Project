@@ -16,6 +16,8 @@ https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow
 Flow:
 Data Ingestion → Transformation & Modeling → Orchestration (Mage) → BigQuery → Analytics (SQL & Looker)
 
+![architecture](https://github.com/user-attachments/assets/6eb0b303-fd61-4ca2-86ce-c0463f80e213)
+
 ## Data Model
 
 Star schema optimized for analytics:

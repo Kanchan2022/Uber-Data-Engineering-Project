@@ -14,7 +14,7 @@ https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow
 ## Architecture
 
 Flow:
-Data Ingestion → Transformation & Modeling → Orchestration (Mage) → BigQuery → Analytics (SQL & Looker)
+Data Ingestion → Transformation & Modeling → Orchestration (Mage) → BigQuery → Analytics (SQL & Looker Studio)
 
 ![architecture](https://github.com/user-attachments/assets/6eb0b303-fd61-4ca2-86ce-c0463f80e213)
 
@@ -25,6 +25,8 @@ Star schema optimized for analytics:
 Fact table: trip-level metrics (fare, distance, taxes, totals)
 
 Dimensions: datetime, passenger count, trip distance, rate code, pickup & drop locations, payment type
+
+![Star Schema Data Model](https://github.com/user-attachments/assets/4cc37379-3255-40f8-9b34-768f0cbed24e)
 
 ## Analytics Examples
 

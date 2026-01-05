@@ -1,0 +1,22 @@
+#This Mage data loader fetches the NYC TLC trip data from a cloud storage URL, caches it locally in /tmp, and returns a sample DataFrame for downstream transformations.
+
+import os
+import pandas as pd
+import requests
+import io
+
+@data_loader
+def load_data_from_api(*args, **kwargs):
+    path = '/tmp/yellow_tripdata.parquet'
+
+    if not os.path.exists(path):
+        r = requests.get(
+            'https://storage.googleapis.com/uber-data-engineering-project-k/yellow_tripdata_2025-10.parquet',
+            stream=True
+        )
+        with open(path, 'wb') as f:
+            for chunk in r.iter_content(chunk_size=1024 * 1024):
+                f.write(chunk)
+
+    df = pd.read_parquet(path)
+    return df.head(10000)

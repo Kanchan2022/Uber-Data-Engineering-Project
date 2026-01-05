@@ -1,9 +1,9 @@
 # End-to-End Analytics Platform Using NYC TLC Trip Data
 ## Overview
 
-This project is an end-to-end data engineering pipeline built to support analytics at scale. It uses publicly available NYC Taxi & Limousine Commission (TLC) trip data (Yellow-taxi Oct'2025) to ingest, transform, and model data for analytics.
+The goal of this project is to perform data analytics on trip data using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.
 
-The pipeline is designed with modular components and analytics-optimized data models to support scalable querying and business intelligence use cases.
+This is an end-to-end data engineering pipeline built to support analytics at scale. It uses publicly available NYC Taxi & Limousine Commission (TLC) trip data (Yellow-taxi Oct'2025) to ingest, transform, and model data for analytics.
 
 Data source: 
 https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page

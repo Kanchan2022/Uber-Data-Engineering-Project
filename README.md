@@ -32,13 +32,3 @@ Dimensions: datetime, passenger count, trip distance, rate code, pickup & drop l
 2. Trips by passenger count
 3. Average fare by hour of day
 4. Fare component breakdowns
-
-## Key Takeaways
-
-1. Built modular, orchestrated pipelines with Mage
-2. Modeled analytics-ready fact & dimension tables
-3. Loaded and queried data at scale in BigQuery
-
-## Motivation
-
-This project reflects my upskilling towards data engineering, focusing on scalable pipelines and cloud data platforms.

@@ -1,0 +1,22 @@
+# Update package lists
+sudo apt-get update
+
+# Install Python dependencies
+sudo apt-get install -y python3-distutils python3-apt wget
+
+# Download and install pip (for Python 3)
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3 get-pip.py
+
+# Install Mage
+sudo pip install mage-ai   
+
+source mage-venv/bin/activate
+mage start uber-data-eng
+
+# Install Pandas
+sudo pip install pandas
+
+# Install Google Cloud libraries
+sudo pip install google-cloud
+sudo pip install google-cloud-bigquery
